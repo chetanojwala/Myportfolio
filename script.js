@@ -17,8 +17,24 @@ function closeModalOnOverlay(e) {
     closeModal();
   }
 }
-
-// Close modal when Escape key is pressed
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModal();
+});
+
+// 👇 ADD HERE (last line)
+document.querySelectorAll('.contact-option').forEach(item => {
+  item.addEventListener('click', () => {
+    closeModal();
+  });
+});
+// ESC key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeModal();
+});
+
+// contact-option click
+document.querySelectorAll('.contact-option').forEach(item => {
+  item.addEventListener('click', () => {
+    closeModal();
+  });
 });
