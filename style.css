@@ -372,3 +372,26 @@ footer {
 @media (max-width: 500px) {
   .nav-links { display: none; }
 }
+/*=====PROJECT IMAGES =====*/
+.project-images {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.project-images img{
+   width: 120px;
+   border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.project-images img:hover{
+   transform: scale(1.08);
+}
+/*====== PROJECT CARD======*/
+.project-card {
+   background: #fff;
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+   
