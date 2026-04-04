@@ -243,17 +243,7 @@ section:nth-child(even) { background: var(--white); }
 .form-group input:focus, .form-group textarea:focus { border-color: var(--primary); }
 .form-group textarea { height: 130px; resize: vertical; }
 .contact-form .btn { width: 100%; margin-top: 0.5rem; }
-
-.social-links { margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
-.social-link {
-  width: 44px; height: 44px; border-radius: 50%;
-  background: var(--gradient); color: #fff;
-  display: flex; align-items: center; justify-content: center;
-  text-decoration: none; font-size: 1.1rem;
-  transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0 4px 15px rgba(108,99,255,0.3);
-}
-.social-link:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(108,99,255,0.4); }
+box-shadow: 0 8px 20px rgba(108,99,255,0.4); }
 
 /* ========================
    CONTACT MODAL
@@ -315,9 +305,7 @@ section:nth-child(even) { background: var(--white); }
 .contact-option:hover span {
   color: var(--primary);
 }
-.contact-option:nth-child(1) { animation-delay: 0.1s; }
-.contact-option:nth-child(2) { animation-delay: 0.2s; }
-.contact-option:nth-child(3) { animation-delay: 0.3s; }
+
 .contact-option .opt-icon {
   font-size: 20px;
   color: var(--primary);
@@ -325,13 +313,6 @@ section:nth-child(even) { background: var(--white); }
 }
 .contact-option:hover .opt-icon {
   transform: scale(1.2);
-}
-.opt-github:hover { color: #000; }
-.opt-linkedin:hover { color: #0077b5; }
-.modal-close {
-  margin-top: 1.4rem; background: none; border: none; cursor: pointer;
-  color: var(--text-light); font-size: 0.85rem;
-  font-family: 'Poppins', sans-serif; font-weight: 500;
 }
 .modal-close:hover { color: var(--primary); }
 
